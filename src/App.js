@@ -15,11 +15,11 @@ function App() {
   const bluee = Math.floor(Math.random() * 255) + 1;
   const blueee = bluee < 100 ? '0' + bluee : bluee
 
-  React.useEffect(() => {
-    setRed(reddd)
-    setGreen(grennn)
-    setBlue(blueee)
-  }, [])
+  // React.useEffect(() => {
+  //   setRed(reddd)
+  //   setGreen(grennn)
+  //   setBlue(blueee)
+  // }, [])
 
 
   function handleClick (){
